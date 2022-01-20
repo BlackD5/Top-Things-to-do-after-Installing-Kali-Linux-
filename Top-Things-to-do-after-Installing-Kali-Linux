@@ -1,0 +1,99 @@
+Installing Guake Terminal
+-------------------------
+To install Guake Terminal simply go:
+
+sudo apt-get install guake
+
+Code language: JavaScript (javascript)
+Now we also want Guake to start automatically the next time we reboot our system, for that, we enter:
+
+sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
+sudo reboot now
+_____________________________________________________________________________________________________________________________________________________________________
+
+Install your Favorite Code Editor
+---------------------------------
+Downloading the Visual Studio Code deb package
+First, you need to download the VSCode deb package. This automatically installs the Visual Studio Code Apt repository, so we are able to update our Visual Studio 
+Code editor.  Choose the 64bit .deb package.
+
+Install Visual Studio Code
+First CD into your Downloads folder, or wherever you have downloaded the file to.
+
+cd Downloads/
+
+Then we just install it using Apt.
+
+sudo apt install ./code_yourversion_amd64.deb
+
+Starting Visual Studio Code
+And that’s it. Now you can already go ahead and start VSCode via the app menu.
+
+_____________________________________________________________________________________________________________________________________________________________________
+
+
+Install Wine
+
+Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer capable of running Windows applications on several POSIX-compliant 
+operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows 
+API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications 
+into your desktop.
+
+To install wine type the following command in the Terminal.
+
+sudo apt-get install wineSetting up a VPN
+----------------
+I have recently written an article where I compare the two most popular VPN Providers out there. I always like to use a VPN when working with any security
+distribution. So I always have VPN Setup that automatically connects the VPN once I boot the system. But ideally, you have that set up on your Router.
+That ensures that all your Internet traffic is routed through the VPN.
+
+I use NordVPN in this example because that’s what I am currently using myself. I have an affiliation with both NordVPN and PIA, so if you decide to sign up with 
+them, use my link and I get a small provision, helping me to pay for server cost. As always, I only recommend stuff that I personally use.
+
+Being a Bug Bounty Hunter, I need to be able to quickly change IPs to avoid bans on websites. NordVPN serves me well as I have set up an alias and just need to 
+type “reconnect” and NordVPN automatically reconnects to a new node, providing me with a fresh IP Address.
+
+It’s very easy to install NordVPN on Debian-based Distributions.
+
+
+After signing up with them, you have to download the NordVPN-Repository package.
+
+Once this is done we need to install it via Terminal:
+
+sudo apt-get install /home/YourUsername/Downloads/nordvpn-release_1.0.0_all.deb
+sudo apt-get update
+
+Code language: JavaScript (javascript)
+Top Things to do after installing Kali Linux
+
+sudo apt-get install nordvpn -Y
+
+Code language: JavaScript (javascript)
+To login you type:
+
+nordvpn login
+
+To connect you type:
+
+nordvpn connect
+
+This connects you to NordVPN. To show settings and modify them type:
+
+nordvpn settings
+
+_____________________________________________________________________________________________________________________________________________________________________
+
+
+Install Wine
+------------
+
+Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer capable of running Windows applications on several POSIX-compliant operating
+systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX
+calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+To install wine type the following command in the Terminal.
+
+sudo apt-get install wine
+
+_____________________________________________________________________________________________________________________________________________________________________
+
