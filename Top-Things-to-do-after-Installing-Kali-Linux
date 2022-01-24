@@ -32,16 +32,7 @@ And that’s it. Now you can already go ahead and start VSCode via the app menu.
 _____________________________________________________________________________________________________________________________________________________________________
 
 
-Install Wine
-
-Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer capable of running Windows applications on several POSIX-compliant 
-operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows 
-API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications 
-into your desktop.
-
-To install wine type the following command in the Terminal.
-
-sudo apt-get install wineSetting up a VPN
+Setting up a VPN
 ----------------
 I have recently written an article where I compare the two most popular VPN Providers out there. I always like to use a VPN when working with any security
 distribution. So I always have VPN Setup that automatically connects the VPN once I boot the system. But ideally, you have that set up on your Router.
